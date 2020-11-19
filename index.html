@@ -23,12 +23,14 @@
       <label for="other">Hard</label> <br>
     </h2>
 
-    <div id="smily" onclick="init()"></div>
+    <div id="smily" onclick="init();updatelives(gLives = 3)"></div>
+    <button style="color:green" onclick="safe(this)">Safe</button>
     <div id="lives"></div>
 
   </div>
 
   <div id="board"></div>
+
   <script src="js/main.js"></script>
 </body>
 
